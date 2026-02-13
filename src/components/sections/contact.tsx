@@ -123,10 +123,10 @@ export function Contact() {
           <motion.div variants={itemVariants} className="space-y-8">
             <div>
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
-                Let's Connect
+                Let&apos;s Connect
               </h3>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-8">
-                I'm currently open to collaborating on interesting web projects and continuing to grow as a developer. If you have an idea or opportunity, I'd be happy to connect.
+                I&apos;m currently open to collaborating on interesting web projects and continuing to grow as a developer. If you have an idea or opportunity, I&apos;d be happy to connect.
               </p>
             </div>
 

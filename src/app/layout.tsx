@@ -2,19 +2,17 @@ import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
+import { profile } from "@/content/profile"
 
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "John Doe - Full Stack Developer",
-  description: "Passionate about creating beautiful, functional web experiences with modern technologies.",
-  keywords: ["Full Stack Developer", "Web Developer", "React", "Next.js", "TypeScript"],
-  authors: [{ name: "John Doe" }],
-  openGraph: {
-    title: "John Doe - Full Stack Developer",
-    description: "Passionate about creating beautiful, functional web experiences with modern technologies.",
-    type: "website",
-    url: "https://johndoe.dev",
+  title: "YHWACH - PORTFOLIO",
+  description: profile.description,
+  icons: {
+    icon: '/favicon.svg',
+    shortcut: '/favicon.svg',
+    apple: '/favicon.svg',
   },
 }
 

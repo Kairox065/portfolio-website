@@ -5,6 +5,7 @@ import { useState, useEffect } from "react"
 import { Menu, X } from "lucide-react"
 import { motion, AnimatePresence } from "framer-motion"
 import { ThemeToggle } from "./theme-toggle"
+import { LogoIcon } from "./logo-icon"
 
 const navItems = [
   { name: "About", href: "#about" },
@@ -48,7 +49,7 @@ export function Navbar() {
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
-            className="flex-shrink-0"
+            className="flex-shrink-0 flex items-center space-x-2"
           >
             <a
               href="#hero"
@@ -56,9 +57,12 @@ export function Navbar() {
                 e.preventDefault()
                 scrollToSection("#hero")
               }}
-              className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600 dark:from-blue-400 dark:to-purple-500"
+              className="flex items-center space-x-2 hover:opacity-80 transition-opacity"
             >
-              YHWACH
+              <LogoIcon className="w-8 h-8" />
+              <span className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600 dark:from-blue-400 dark:to-purple-500">
+                YHWACH
+              </span>
             </a>
           </motion.div>
 
