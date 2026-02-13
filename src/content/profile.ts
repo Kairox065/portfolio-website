@@ -19,7 +19,7 @@ export const profile = {
   projects: [
     {
       id: 1,
-      title: "Personals Portfolio Website",
+      title: "Personal Portfolio Website",
       description: "A responsive portfolio website built with React and Tailwind CSS to showcase my projects and skills.",
       tech: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "next-themes", "React Hook Form"],
       demoUrl: "https://github.com/Kairox065/portfolio-website",
