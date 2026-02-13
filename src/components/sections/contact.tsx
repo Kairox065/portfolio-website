@@ -108,7 +108,7 @@ export function Contact() {
             variants={itemVariants}
             className="mt-6 text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto"
           >
-            I'm always open to discussing new projects, collaborations, or learning opportunities. Feel free to reach out if you'd like to connect.
+            I&apos;m always open to discussing new projects, collaborations, or learning opportunities. Feel free to reach out if you&apos;d like to connect.
           </motion.p>
         </motion.div>
 
@@ -298,7 +298,7 @@ export function Contact() {
                   animate={{ opacity: 1, y: 0 }}
                   className="p-4 bg-green-100 dark:bg-green-900/30 border border-green-300 dark:border-green-700 rounded-lg text-green-700 dark:text-green-300"
                 >
-                  Message sent successfully! I'll get back to you soon.
+                  Message sent successfully! I&apos;ll get back to you soon.
                 </motion.div>
               )}
 
