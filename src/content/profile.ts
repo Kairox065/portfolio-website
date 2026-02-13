@@ -3,7 +3,7 @@ export const profile = {
   title: "Full Stack Developer",
   description: "I build responsive and interactive web applications using React, JavaScript, HTML, CSS, and backend technologies.",
   about: "I'm a full-stack developer focused on building modern web applications using React, JavaScript, HTML, CSS, and backend technologies. I enjoy turning ideas into functional, clean, and user-friendly solutions while continuously learning and improving my skills.",
-  email: "anasebraheem03@gmail.com",
+  email: "yhwachbusiness0@gmail.com",
   
   skills: [
     { name: "JavaScript", level: 90, category: "frontend" },
@@ -46,7 +46,7 @@ export const profile = {
 
   socials: [
     { name: "GitHub", url: "https://github.com/Kairox065", icon: "Github" },
-    { name: "Email", url: "mailto:anasebraheem03@gmail.com", icon: "Mail" },
+    { name: "Email", url: "mailto:yhwachbusiness0@gmail.com", icon: "Mail" },
   ],
 }
 
